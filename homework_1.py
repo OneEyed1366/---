@@ -31,8 +31,8 @@ def nums(n, m):
     sum_str = str(n)
     
     for i in range(1, m):
-        sum_str = sum_str + str_n
-        sums = sums + int(sum_str)
+        sum_str += str_n
+        sums += int(sum_str)
         
     return 'Введённое число: {0}\nЧисло повторов: {1}\nРезультат: {2}'.format(
         n,
